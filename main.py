@@ -2,17 +2,22 @@
 
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-from src.step0.OpenV1 import OpenV1
+
+import cv2
+
+from step1.OpenT2 import OpenT2
 
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
 
+    # cv2.waitKey(0)
+    # print(img2)
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-    open1 = OpenV1()
-    open1.onStart()
+    t0 = OpenT2()
+    t0.onStart()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

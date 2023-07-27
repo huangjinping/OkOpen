@@ -1,2 +1,0 @@
-# OkOpen
-python open cv
