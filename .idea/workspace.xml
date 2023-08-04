@@ -2,17 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b539e61f-bdce-4a4f-8c44-63dbacde5f8a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/OkOpen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OkOpen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/311.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/a9d.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/haarcascade_frontalface_alt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/haarcascade_frontalface_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step1/DlibT0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step1/NumPyT0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/step0/OpenV1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/step1/OpenT1.py" beforeDir="false" afterPath="$PROJECT_DIR$/step1/OpenT1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step1/OpenT2.py" beforeDir="false" afterPath="$PROJECT_DIR$/step1/OpenT2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,9 +42,15 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/huhuijie/Documents/GitHub/OkOpen&quot;
+    &quot;last_opened_file_path&quot;: &quot;/Users/huhuijie/Documents/GitHub/OkOpen/res&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python">
       <module name="OkOpen" />
@@ -67,14 +85,32 @@
       <updated>1684462499741</updated>
       <workItem from="1684462501806" duration="19000" />
       <workItem from="1684462533007" duration="78000" />
-      <workItem from="1690429039791" duration="304000" />
+      <workItem from="1690429039791" duration="1233000" />
+      <workItem from="1691047903615" duration="1790000" />
+      <workItem from="1691049702273" duration="7000" />
+      <workItem from="1691049839923" duration="2224000" />
+      <workItem from="1691052093768" duration="8545000" />
+      <workItem from="1691115317517" duration="11274000" />
+      <workItem from="1691149896361" duration="4552000" />
+      <workItem from="1691190906040" duration="1000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/OkOpen$main.coverage" NAME="main Coverage Results" MODIFIED="1690429322032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OkOpen$main.coverage" NAME="main Coverage Results" MODIFIED="1691148412730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
