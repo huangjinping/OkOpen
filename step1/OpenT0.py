@@ -181,6 +181,7 @@ class OpenT0:
         cv2.imshow("input", b1)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
+        
 
     def bitwise_demo(self):
         b1 = cv2.imread("/Users/huhuijie/Downloads/river/m1975.png")
