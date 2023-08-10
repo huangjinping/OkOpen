@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b539e61f-bdce-4a4f-8c44-63dbacde5f8a" name="Changes" comment=",">
-      <change afterPath="$PROJECT_DIR$/res/tuijian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/tuijian2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step1/ImagePs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step1/MatT0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step1/ImagePs.py" beforeDir="false" afterPath="$PROJECT_DIR$/step1/ImagePs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,7 @@
       <workItem from="1691190906040" duration="1000" />
       <workItem from="1691190915575" duration="2861000" />
       <workItem from="1691193792036" duration="22194000" />
-      <workItem from="1691481275670" duration="5907000" />
+      <workItem from="1691481275670" duration="15419000" />
     </task>
     <task id="LOCAL-00001" summary="v2">
       <created>1691190940906</created>
@@ -121,6 +119,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="v2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/OkOpen$main.coverage" NAME="main Coverage Results" MODIFIED="1691489067026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OkOpen$main.coverage" NAME="main Coverage Results" MODIFIED="1691560087731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
