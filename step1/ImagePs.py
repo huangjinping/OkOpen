@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 
 
+# https://mp.weixin.qq.com/s/CBVIcnBCLPY4EMILaMhigw
 class ImagePs:
     def __init__(self):
         pass
@@ -11,7 +12,8 @@ class ImagePs:
         print("onStart")
         # self.onChange1()
         # self.onChange2()
-        self.onChange3()
+        # self.onChange3()
+        self.decodeImage()
 
     def onChange(self):
         print("onChange")
@@ -82,4 +84,11 @@ class ImagePs:
         print(res.shape)
         cv2.imshow("img", img)
         cv2.imshow("res", res)
+        cv2.waitKey(0)
+
+    def decodeImage(self):
+        img = cv2.imread("./res/yazi.jpg")
+        hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+        cv2.imshow("yazi", img)
+        cv2.imshow("hsv", hsv)
         cv2.waitKey(0)

@@ -11,6 +11,7 @@ from step1.MatT0 import MatT0
 from step1.NumPyT0 import NumPyT0
 from step1.OpenT1 import OpenT1
 from step1.OpenT2 import OpenT2
+from step1.TransformT0 import Transform0
 
 
 def print_hi(name):
