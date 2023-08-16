@@ -6,6 +6,7 @@
 import cv2
 
 from step1.DlibT0 import TlibT0
+from step1.FilterT0 import FilterT0
 from step1.ImagePs import ImagePs
 from step1.MatT0 import MatT0
 from step1.NumPyT0 import NumPyT0
@@ -24,6 +25,6 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    t0 = ImagePs()
+    t0 = FilterT0()
     t0.onStart()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

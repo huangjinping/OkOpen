@@ -87,8 +87,20 @@ class ImagePs:
         cv2.waitKey(0)
 
     def decodeImage(self):
-        img = cv2.imread("./res/yazi.jpg")
+        img = cv2.imread("./res/yazi.jpg", )
+        cv2.namedWindow('yazi', cv2.WINDOW_NORMAL | cv2.WINDOW_KEEPRATIO)
+        h, w, ch = img.shape
+        print(w / 2)
+        img = cv2.resize(img, (int(w / 5), int(h / 5)))
+        print(img.shape)
         hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
         cv2.imshow("yazi", img)
         cv2.imshow("hsv", hsv)
+        mask = cv2.inRange(hsv, (35, 43, 46), (77, 255, 255))
+        cv2.imshow('cc', mask)
+        mask = cv2.bitwise_not(mask)
+        result = cv2.bitwise_and(img, img, mask=mask)
+        cv2.imshow("mask", mask)
+        cv2.imshow("result", result)
         cv2.waitKey(0)
+        cv2.destroyAllWindows()
